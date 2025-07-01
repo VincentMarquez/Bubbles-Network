@@ -19,12 +19,12 @@ from datetime import datetime
 # API Configuration
 OLLAMA_HOST_URL = "http://10.0.0.237:11434"
 OLLAMA_MODELS = ["gemma:7b"]  # Add more if available: "llama2:7b", "mistral:7b"
-GEMINI_API_KEY = "AIzaSyDQoiH2OstmsYwhyvX-QX9R6Xlj8EHaOks"
-GEMINI_MODEL = "gemini-2.5-pro-preview-06-05"
+GEMINI_API_KEY = "Your_API"
+GEMINI_MODEL = "Your_API"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
 
 # Grok API Configuration
-GROK_API_KEY = "xai-lOkaAxIvkodZy05pGJoUcRxCvOPGauaG2eUDkx2uarTtG23d4YN6RbOxXVeUSueW7Bug7bL7bVP1XhZ2"
+GROK_API_KEY = "Your_API"
 GROK_API_URL = "https://api.x.ai/v1/chat/completions"
 GROK_MODEL = "grok-3-latest"
 
